@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+.page-wrap {
+  min-height: 100%;
+  margin-bottom: -25px;
+}
+
+body {
+  background: url("http://gdurl.com/iHhe");
+  background-size: 1920px 1282px;
+}
+
+.jumbotron {
+  text-align: center;
+  color: #ffffe6;
+  background: none;
+}
+
+h1 {
+  font-family: "cabin sketch", cursive;
+}
+
+.quote-btn{
+  display: inline-block;
+  position: relative;
+  float: left;
+  font-family: 'Cabin', sans-serif;
+  border: none;
+  
+}
+
+.tweet-btn{
+  margin-top: -3px;
+  display: inline-block;
+  position: relative;
+  float: right;
+  font-family: 'Cabin', sans-serif;
+  border: none;
+  }
+
+.btn-warning {
+  background: #1a0033 !important;
+  border: none !important;
+  color: #e6ccff;
+}
+
+.btn-warning:active:focus {
+  background: #1a0033 !important;
+  border: none !important;
+}
+
+.btn-warning:hover {
+  background: #350066 !important;
+  border: none !important;
+}
+
+.quote-box{
+  text-align: center;
+  background-color: #00001a;
+  border: none;
+  color: #ffffe6;
+  font-family: 'Cabin', sans-serif;
+  font-size: 16px ;
+  opacity: .8;
+  margin-bottom: 9%;
+}
+
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+
+.footer, .page-wrap:after
+{
+  height: 25px;
+}
+
+.footer {
+  color: #ffffe6;
+  text-align: center;
+  font-family: 'Cabin', sans-serif;
+}
